@@ -3,7 +3,7 @@ connectToMongo();
 
 const express = require('express')
 const app = express()
-const port = 8499
+const port = 8080
 
 const cors = require('cors')
 const router = require('./Routes/router')
