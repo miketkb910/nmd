@@ -3,4 +3,4 @@ WORKDIR /usr/src/app
 COPY ./ ./
 RUN npm install 
 CMD ["npm","run","server"]
-EXPOSE 8080
+EXPOSE 3000
